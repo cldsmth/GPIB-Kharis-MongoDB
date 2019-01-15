@@ -1,0 +1,115 @@
+.form-body {
+    padding: 5px 15px;
+}
+.table-horizontal-scroll {
+	white-space: nowrap;
+	overflow-x: auto;
+}
+.is-error {
+    font-size: 13px;
+    display: none;
+    margin: 5px 0;
+    color: #a94442;
+}
+.input-style::-webkit-input-placeholder {
+    font-style:italic;
+    font-size:13px;
+    color:#a7a7a7;
+}
+.input-style::-moz-placeholder {
+    font-style:italic;
+    font-size:13px;
+    color:#a7a7a7;
+}
+.input-style:-ms-input-placeholder {
+    font-style:italic;
+    font-size:13px;
+    color:#a7a7a7;
+}
+.input-style:-moz-placeholder {
+    font-style:italic;
+    font-size:13px;
+    color:#a7a7a7;
+}
+.symbol-required {
+    color: #E6674A;
+    font-size: 17px;
+}
+.note-input {
+    font-size: 12px;
+    font-style: italic;
+}
+.wrap-iexcel {
+    width: 250px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.box-iexcel {
+    display: block;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-iexcel {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 10px;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.text-iexcel {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.btn-iexcel:hover,.btn-iexcel:focus,.btn-iexcel:active {
+    background-color: #dddd;
+}
+.search-wrap {
+    width: 100%;
+    max-width: 100%;
+}
+.search-group {
+    display: table;
+    width: 100%;
+}
+.search-input {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    position: relative;
+}
+.search-group-btn {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+.search-group-btn > .btn {
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.link-search {
+    text-align: left;
+}
+.link-search > a {
+    color: #000000 !important;
+    text-decoration: underline !important;
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+.link-search > span {
+    color: #000000 !important;
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+.link-search > a:hover{
+    color: #666666 !important;
+    text-decoration: underline !important;
+}
